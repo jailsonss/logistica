@@ -1,0 +1,93 @@
+.headerContato{
+    background-image: url('../img/contato.png');
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    .containerContato{
+        padding: 5%;
+        text-align: center;
+        h1,p{
+            color: $branco;
+        }
+        h1{
+            margin-bottom: 20px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+//Formulário
+.containerForm{
+    padding-top: 5%;
+    display: flex;
+    form{
+        box-sizing: border-box;
+        p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            input{    
+                height: 48px;
+            }
+            textarea{
+                height: 100px;
+            }
+            input, textarea{
+                width: 350px;
+                border: 1px solid $cinza-claro;
+                border-radius: 8px;
+                margin-right: 15px;
+                padding: 15px;
+                &::placeholder{
+                    color: $placeholder;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 27px;
+                }
+            
+    
+            }
+        }
+        button{
+            background: $amarelo;
+            border-radius: 8px;
+            border: none;
+            padding: 12px 40px;
+            gap: 10px;
+        }
+    }
+    .containerMatriz{
+        border: 1px solid $cinza-claro;
+        border-radius: 8px;
+        padding: 10%;
+        .tituloMatriz{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 32px;
+            color: $azul-escuro;
+        }
+        .textoMatriz{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 24px;
+            color: $cinza;
+        }
+
+    }
+}
+
+// Mapa da página Contato
+.mapaContato{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}

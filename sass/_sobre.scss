@@ -1,0 +1,68 @@
+.containerSobre{
+    background-image: url('../img/sobre.png');
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 5%;
+
+    .containerConteudoSobre{
+        padding: 5%;
+        text-align: center;
+        h1,p{
+            color: $branco;
+        }
+        h1{
+            margin-bottom: 20px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+// Sobre Nós
+
+.containerSobreNos{
+    height: 830px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    .imgSobreNos{
+        img{
+            
+            object-fit: cover;
+        }
+    }
+    .conteudoSobreNos{
+        position: absolute;
+        background: $branco;
+        margin: 2% 0 0 25%;
+        box-shadow: 24px 4px 96px rgba(162, 162, 162, 0.2);
+        border-radius: 8px;
+        padding: 40px;
+        width: 35%;
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            color: $cinza;
+        }
+    }
+    .numSobreNos{
+        display: flex;
+        align-items: flex-end;
+        .cardsSobreNos{
+            column-count: 2;
+            .card{
+                border: none;
+            }
+        }
+    }
+}

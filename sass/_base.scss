@@ -1,0 +1,57 @@
+$branco: #FFFFFF;
+$branco-escuro: #F9F9F9;
+$cinza: #798196;
+$cinza-claro: #E6E6E6;
+$placeholder: #CCCCCC;
+$amarelo: #FAB81F;
+$azul: #23A4D0;
+$azul-escuro: #1D2B4F;
+
+body{
+    font-family: 'Roleway', sans-serif;
+}
+
+a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+h1, h3, h4, h5{
+    font-weight: 700;
+
+}
+h1{
+    font-size: 64px;
+    line-height: 88px;
+}
+
+h3{
+    font-size: 48px;
+    line-height: 64px;
+    color: $azul-escuro;
+}
+
+h4{
+    font-size: 32px;
+    line-height: 48px;
+    color: $azul-escuro;
+
+}
+
+h5{
+    font-size: 24px;
+    line-height: 32px;
+    color: $azul-escuro;
+}
+
+button{
+    cursor: pointer;
+    color: $branco;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+}

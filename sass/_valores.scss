@@ -1,0 +1,38 @@
+
+.containerAgilidade{
+    display: flex;
+    padding: 5% 0;
+    align-items: center;
+    height: 640px;
+    @media (max-width: 991.98px){
+        display: grid;
+    }
+}
+
+.containerValores{
+    display: flex;
+    height: 640px;
+    .imgValores{
+        position: absolute;
+    }
+    .azulValores{
+        position: inherit;
+        background: $azul;
+        padding: 6% 0;
+        .cardsValores{
+            column-count: 2;
+            .card{
+                background: none;
+                border: none;
+                display: grid;
+                img{
+                    float: left;
+                    margin-left: -50px;
+                }
+                h5,p{
+                    color: $branco;
+                }
+            }
+        }
+    }
+}

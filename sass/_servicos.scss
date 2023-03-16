@@ -1,0 +1,42 @@
+.containerServicos{
+    .conteudoServicos{
+        display: grid;
+        text-align: center;
+        padding: 0 0 10% 0;
+
+        h3{
+            margin-bottom: 1rem;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            margin-bottom: 3rem;
+        }
+        .cardServicos{
+            /* border: 1px solid #E6E6E6; */
+            border-radius: 8px;
+            text-align: left;
+            img{
+                margin-bottom: 16px;
+            }
+            h5{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 32px;
+            }
+
+            a{
+                color: $amarelo;
+                padding: 0;
+                img{
+                    margin: inherit;
+                }
+            }
+            &:hover{
+                cursor: pointer;
+                box-shadow: 0 0 8px 8px #E6E6E6;
+            }
+        }
+    }
+}

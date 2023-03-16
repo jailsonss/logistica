@@ -1,0 +1,29 @@
+header {
+    nav {
+
+        ul{
+            li{
+                a{
+                    color: $cinza;
+                    &:hover{
+                        color: $azul;
+                        border-bottom: 3px solid $azul;
+                    }
+                }
+            }
+        }
+        
+        .menuButton {
+            background-color: $amarelo;
+            margin-right: 40px;
+            a{
+                color: $branco;
+                &:hover{
+                    color: $branco;
+                    text-decoration: none;
+                    border-bottom: 3px solid $branco;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.containerDuvida{
+    background-image: url('../img/duvida.png');
+    height: 100%;
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .containerConteudoDuvida{
+        padding: 5%;
+        text-align: center;
+        h3,p{
+            color: $branco;
+        }
+        h3{
+            margin-bottom: 20px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+            margin-bottom: 40px;
+        }
+    
+        button{
+            background: $amarelo;
+            border-radius: 8px;
+            border: none;
+            padding: 12px 40px;
+            gap: 10px;
+        }
+    }
+}

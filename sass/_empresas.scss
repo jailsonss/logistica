@@ -1,0 +1,19 @@
+.empresas{
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 0;
+    @media (max-width: 991.98px){
+        display: grid;
+    }
+    .card-deck{
+        .card{
+            border: none;
+            img{
+                height: 100px;
+                
+            }
+        }
+    }
+}
